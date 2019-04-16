@@ -46,5 +46,6 @@ const paintColour = function(element, colour) {
 
 const resetGrid = function() {
     grid.innerHTML = "";
+    cellColour = "black";
     gridInit();
 }
